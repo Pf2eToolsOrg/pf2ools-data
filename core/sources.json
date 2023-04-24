@@ -197,11 +197,7 @@
 				"{@b Genie, Marid from the Tome of Horrors Complete} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
 				"{@b Pathfinder Advanced Player's Guide} © 2020, Paizo Inc.; Authors: Amirali Attar Olyaee, Alexander Augunas, Kate Baker, Brian Bauman, Logan Bonner, Carlos Cabrera, James Case, Jessica Catalan, John Compton, Paris Crenshaw, Jesse Decker, Fabby Garza Marroquín, Steven Hammond, Sasha Laranoa Harving, Joan Hong, Nicolas Hornyak, Vanessa Hoskins, James Jacobs, Erik Keith, Lyz Liddell, Luis Loza, Ron Lundeen, Patchen Mortimer, Dennis Muldoon, Stephen Radney-MacFarland, Jessica Redekop, Mikhail Rekun, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Kendra Leigh Speedling, Jason Tondro, Clark Valentine, and Andrew White."
 			],
-			"defaultSource": [
-				"versatileHeritage",
-				"familiar",
-				"optfeature"
-			]
+			"defaultSource": ["versatileHeritage", "familiar", "optfeature"]
 		},
 		{
 			"source": "AV0",
@@ -274,11 +270,7 @@
 			"name": "Bestiary",
 			"vanilla": true,
 			"date": "2019-08-01",
-			"defaultSource": [
-				"creatureTemplate",
-				"ability",
-				"creature"
-			],
+			"defaultSource": ["creatureTemplate", "ability", "creature"],
 			"entries": [
 				"{@b Daemon, Guardian from the Tome of Horrors Complete} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall.",
 				"{@b Dark Creeper from the Tome of Horrors Complete} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Rik Shepard.",
@@ -760,9 +752,7 @@
 			"date": "2019-10-16",
 			"store": "https://paizo.com/products/btq01zt4",
 			"name": "Lost Omens: Character Guide",
-			"defaultSource": [
-				"organization"
-			],
+			"defaultSource": ["organization"],
 			"entries": [
 				"{@b Genie, Marid from the Tome of Horrors Complete} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
 				"{@b Pathfinder Lost Omens Character Guide (Second Edition)} © 2019, Paizo Inc.; Authors: John Compton, Sasha Lindley Hall, Amanda Hamon, Mike Kimmel, Luis Loza, Ron Lundeen, Matt Morris, Patchen Mortimer, Andrew Mullen, Mikhail Rekun, Micheal Sayre, Owen K.C. Stephens, Isabelle Thorne, and Linda Zayas-Palmer."
@@ -874,9 +864,7 @@
 		{
 			"source": "LOTG",
 			"date": "2022-08-31",
-			"defaultSource": [
-				"event"
-			],
+			"defaultSource": ["event"],
 			"store": "https://paizo.com/products/btq02c20",
 			"name": "Lost Omens: Travel Guide",
 			"entries": [
@@ -1093,9 +1081,7 @@
 				"{@b Pathfinder Core Rulebook (Second Edition)} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 				"{@b Pathfinder Secrets of Magic} © 2021, Paizo Inc.; Authors: Amirali Attar Olyaee, Kate Baker, Minty Belmont, Logan Bonner, James Case, Jessica Catalan, John Compton, Katina Davis, Jesse Decker, Chris Eng, Eleanor Ferron, Leo Glass, Joan Hong, Vanessa Hoskins, Jason Keeley, Joshua Kim, Luis Loza, Ron Lundeen, Liane Merciel, David N. Ross, Ianara Natividad, Chesley Oxendine, Stephen Radney-MacFarland, Shiv Ramdas, Mikhail Rekun, Simone D. Sallé, Michael Sayre, Mark Seifter, Sen H.H.S., Shay Snow, Kendra Leigh Speedling, Tan Shao Han, Calliope Lee Taylor, Mari Tokuda, Jason Tondro, Clark Valentine, Ruvaid Virk, Andrew White, Landon Winkler, Tonya Woldridge, and Isis Wozniakowska."
 			],
-			"defaultSource": [
-				"eidolon"
-			]
+			"defaultSource": ["eidolon"]
 		},
 		{
 			"source": "SoT0",
