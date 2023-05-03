@@ -64,7 +64,8 @@
 							]
 						},
 						{
-							"type": "pf2-sample-box",
+							"type": "pf2-box",
+							"style": "sample",
 							"name": "Filter Tag",
 							"entries": [
 								"Another tag that appears occasionally in the data is the @filter tag. This tag can be tricky to use, and generally relies on knowledge of the internals of each page. As such, use with caution, and if you're not sure about something, don't be afraid to drop by our {@link Discord|https://discord.gg/2hzNxErtVu} and ask questions.",
@@ -92,7 +93,8 @@
 							]
 						},
 						{
-							"type": "pf2-beige-box",
+							"type": "pf2-box",
+							"style": "beige",
 							"name": "Book/Reference Tags",
 							"entries": [
 								"The following tags can be used to link specific sections of adventures/books. Note that chapters and headers are indexed from zero.",
@@ -107,7 +109,8 @@
 							]
 						},
 						{
-							"type": "pf2-tips-box",
+							"type": "pf2-box",
+							"style": "tips",
 							"name": "Other Tags",
 							"entries": [
 								"Links:",
@@ -486,7 +489,8 @@
 									]
 								},
 								{
-									"type": "pf2-brown-box",
+									"type": "pf2-box",
+									"style": "brown",
 									"name": "EXAMPLE BROWN BOX",
 									"entries": [
 										"Brown box entries. I cannot think of anything to type, so this text stays short.",
@@ -498,7 +502,8 @@
 									]
 								},
 								{
-									"type": "pf2-red-box",
+									"type": "pf2-box",
+									"style": "red",
 									"name": "EXAMPLE RED BOX",
 									"entries": [
 										"Sample entries. Red boxes are on the endangered species list, there are so few of them. Most, if not all, red boxes come with a cool special table.",
@@ -527,7 +532,8 @@
 									]
 								},
 								{
-									"type": "pf2-key-box",
+									"type": "pf2-box",
+									"style": "key",
 									"name": "Another example box",
 									"entries": [
 										"This box looks similar to the key abilities box."
