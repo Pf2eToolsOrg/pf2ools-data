@@ -49,7 +49,19 @@
 					"page": 18,
 					"entries": [
 						"You come from sun-scorched badlands, where long legs and an ability to withstand the elements helped you thrive. You can {@action Hustle} twice as long while exploring before you have to stop, and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on)."
-					]
+					],
+					"modif": {
+						"environmental": [
+							"heat"
+						],
+						"action": [
+							{
+								"type": "modifies",
+								"action": "hustle",
+								"entry": "You can {@action Hustle} twice as long while exploring before you have to stop."
+							}
+						]
+					}
 				},
 				{
 					"name": "Deep Orc",
@@ -58,7 +70,13 @@
 					"page": 18,
 					"entries": [
 						"Your calloused hands and red eyes speak to a life spent in the deep darkness of mountain caverns, where you learned to battle on rocky cliffs and survive with minimal resources. You gain the {@feat Terrain Expertise} skill feat for underground terrain and the {@feat Combat Climber} skill feat."
-					]
+					],
+					"modif": {
+						"feats": [
+							"Terrain Expertise",
+							"Combat Climber"
+						]
+					}
 				},
 				{
 					"name": "Hold-Scarred Orc",
@@ -67,7 +85,13 @@
 					"page": 18,
 					"entries": [
 						"You are part of an orc community that participates in ritual scarification or tattooing. The marks on your skin show your exceptional hardiness and vitality. You gain 12 Hit Points from your ancestry instead of 10. You also gain the {@feat Diehard} feat."
-					]
+					],
+					"modif": {
+						"hp": 12,
+						"feats": [
+							"Diehard"
+						]
+					}
 				},
 				{
 					"name": "Rainfall Orc",
@@ -76,7 +100,32 @@
 					"page": 18,
 					"entries": [
 						"You were born in a rain forest with only tangles of trees providing protection from torrential rainstorms and flash floods. You've learned to move adeptly through jungle terrain and resist the various ailments common in humid environs. You gain a +2 circumstance bonus to {@skill Athletics} checks to {@action Climb} or {@action Swim} and a +1 circumstance bonus to saving throws against diseases."
-					]
+					],
+					"modif": {
+						"bonus": [
+							{
+								"type": "circumstance",
+								"modifier": 2,
+								"skills": [
+									"Athletics"
+								],
+								"action": [
+									"Climb",
+									"Swim"
+								]
+							},
+							{
+								"type": "circumstance",
+								"modifier": 1,
+								"saves": [
+									"all"
+								],
+								"traits": [
+									"disease"
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Battle-Ready Orc",
@@ -85,7 +134,15 @@
 					"page": 49,
 					"entries": [
 						"You descend from a line of terrifying battlefield commanders. You become trained in {@skill Intimidation}, and you gain the {@feat Intimidating Glare} skill feat."
-					]
+					],
+					"modif": {
+						"skills": [
+							"Intimidation"
+						],
+						"feats": [
+							"Intimidating Glare"
+						]
+					}
 				},
 				{
 					"name": "Grave Orc",
@@ -94,7 +151,30 @@
 					"page": 50,
 					"entries": [
 						"You were exposed to powerful necromantic energies that should have killed you\u2014but you survived. Your skin is cold, clammy, and gray. You gain resistance to negative damage equal to half your level (minimum 1). You also gain a +1 circumstance bonus to saving throws against {@trait necromancy} effects."
-					]
+					],
+					"modif": {
+						"resistance": [
+							{
+								"type": "half-level",
+								"modifier": 1,
+								"traits": [
+									"negative"
+								]
+							}
+						],
+						"bonus": [
+							{
+								"type": "circumstance",
+								"modifier": 1,
+								"saves": [
+									"all"
+								],
+								"traits": [
+									"necromancy"
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Winter Orc",
@@ -103,7 +183,15 @@
 					"page": 50,
 					"entries": [
 						"Your ancestors survived in cold climates. You become trained in {@skill Survival}, and you treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on)."
-					]
+					],
+					"modif": {
+						"environmental": [
+							"cold"
+						],
+						"skills": [
+							"Survival"
+						]
+					}
 				}
 			],
 			"images": [
