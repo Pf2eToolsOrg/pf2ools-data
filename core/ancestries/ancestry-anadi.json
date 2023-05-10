@@ -21,9 +21,16 @@
 				"constitution"
 			],
 			"languages": [
-				"{@language Anadi|AoA1}",
-				"{@language Mwangi}",
-				"Additional languages equal to your Intelligence modifier (if positive). Choose from {@language Draconic}, {@language Elven}, {@language Gnoll}, {@language Iruxi|b1}, {@language Orcish}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"Anadi|AoA1",
+				"Mwangi"
+			],
+			"additionalLanguages": [
+				"Draconic",
+				"Elven",
+				"Gnoll",
+				"Iruxi|b1",
+				"Orcish",
+				"Sylvan"
 			],
 			"traits": [
 				"anadi",
@@ -57,7 +64,7 @@
 					"name": "Change Shape"
 				}
 			],
-			"flavor": [
+			"entries": [
 				"Anadi people are reclusive, sapient spiders who hail from the jungles of southern Garund. Though they act in many ways like natural-born shapeshifters, their twin forms actually stem from carefully developed magic."
 			],
 			"heritage": [
@@ -68,7 +75,12 @@
 					"page": 103,
 					"entries": [
 						"You descend from a line of anadi who worked to perfect their transformation magic, allowing them to integrate into a wider variety of cultures. Choose a common, Medium humanoid ancestry. Your human form is replaced with a form that matches this choice. You also gain the {@feat Adopted Ancestry} feat for your chosen humanoid ancestry."
-					]
+					],
+					"modif": {
+						"feats": [
+							"Adopted Ancestry|LOME"
+						]
+					}
 				},
 				{
 					"name": "Polychromatic Anadi",
