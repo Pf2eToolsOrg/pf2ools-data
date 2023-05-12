@@ -17,7 +17,7 @@
 				"free"
 			],
 			"languages": [
-				"{@language Common}",
+				"Common",
 				"Additional languages equal to your Intelligence modifier (if positive). Choose from {@language Elven}, {@language Gnomish}, {@language Goblin}, {@language Halfling}, {@language Dwarven}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

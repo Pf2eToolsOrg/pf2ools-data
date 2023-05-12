@@ -26,8 +26,8 @@
 				"constitution"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Draconic}",
+				"Common",
+				"Draconic",
 				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Aklo}, {@language Dwarven}, {@language Gnomish}, {@language Infernal}, {@language Terran}, {@language Undercommon}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

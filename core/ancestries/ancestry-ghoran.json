@@ -17,8 +17,8 @@
 				"free"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Sylvan}",
+				"Common",
+				"Sylvan",
 				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Aklo}, {@language Draconic}, {@language Elven}, {@language Gnomish}, {@language Jotun}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

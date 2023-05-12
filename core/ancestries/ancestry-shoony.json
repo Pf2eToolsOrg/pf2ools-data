@@ -21,8 +21,8 @@
 				"constitution"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Shoony}",
+				"Common",
+				"Shoony",
 				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Dwarven}, {@language Gnomish}, {@language Goblin}, {@language Halfling}, {@language Terran}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

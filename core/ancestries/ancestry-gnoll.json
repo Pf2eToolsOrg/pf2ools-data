@@ -21,8 +21,8 @@
 				"wisdom"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Gnoll}",
+				"Common",
+				"Gnoll",
 				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Draconic}, {@language Elven}, {@language Iruxi|b1}, {@language Necril}, {@language Orcish}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

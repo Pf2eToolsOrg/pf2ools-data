@@ -17,8 +17,8 @@
 				"free"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Kashrishi}",
+				"Common",
+				"Kashrishi",
 				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Aquan}, {@language Celestial}, {@language Draconic}, {@language Sylvan}, {@language Terran}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

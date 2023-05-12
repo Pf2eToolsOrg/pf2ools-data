@@ -17,8 +17,8 @@
 				"free"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Vanaran}",
+				"Common",
+				"Vanaran",
 				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Elven}, {@language Gnome}, {@language Infernal}, {@language Goblin}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

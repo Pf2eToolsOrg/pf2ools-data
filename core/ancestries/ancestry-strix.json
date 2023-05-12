@@ -17,8 +17,8 @@
 				"free"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Strix|Aoa3}",
+				"Common",
+				"Strix|Aoa3",
 				"Additional languages equal to your Intelligence modifier (if positive). Choose from {@language Draconic}, {@language Jotun||Giant}, {@language Gnomish||Gnome}, {@language Infernal}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [

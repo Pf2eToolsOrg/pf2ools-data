@@ -21,8 +21,8 @@
 				"charisma"
 			],
 			"languages": [
-				"{@language Common}",
-				"{@language Androffan|loag}",
+				"Common",
+				"Androffan|loag",
 				"Additional languages equal to your Intelligence modifier (if positive). Choose from {@language Abyssal}, {@language Celestial}, {@language Draconic}, {@language Dwarven}, {@language Undercommon}, {@language Utopian|b1}, and any other languages to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [
