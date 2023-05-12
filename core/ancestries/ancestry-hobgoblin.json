@@ -106,8 +106,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Hobgoblin01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Hobgoblin02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Hobgoblin01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Hobgoblin02.png"
+					}
+				}
 			]
 		}
 	]

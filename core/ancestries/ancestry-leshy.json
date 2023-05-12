@@ -135,10 +135,34 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Leshy01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Leshy02.png",
-				"https://2e.aonprd.com/Images/Ancestries/Leshy03.png",
-				"https://2e.aonprd.com/Images/Ancestries/Leshy04.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Leshy01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Leshy02.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Leshy03.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Leshy04.png"
+					}
+				}
 			]
 		}
 	]

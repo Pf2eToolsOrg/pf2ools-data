@@ -145,8 +145,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Anadi01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Anadi02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Anadi01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Anadi02.png"
+					}
+				}
 			]
 		}
 	]

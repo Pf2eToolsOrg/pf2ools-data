@@ -113,8 +113,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Ratfolk01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Ratfolk02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Ratfolk01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Ratfolk02.png"
+					}
+				}
 			]
 		}
 	]

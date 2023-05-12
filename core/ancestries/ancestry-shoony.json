@@ -85,8 +85,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Shoony01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Shoony02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Shoony01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Shoony02.png"
+					}
+				}
 			]
 		}
 	]

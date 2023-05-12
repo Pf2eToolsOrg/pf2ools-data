@@ -114,8 +114,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Tengu01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Tengu02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Tengu01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Tengu02.png"
+					}
+				}
 			]
 		}
 	]

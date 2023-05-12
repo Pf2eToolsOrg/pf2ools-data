@@ -75,8 +75,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Kashirishi01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Kashirishi02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Kashirishi01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Kashirishi02.png"
+					}
+				}
 			]
 		}
 	]

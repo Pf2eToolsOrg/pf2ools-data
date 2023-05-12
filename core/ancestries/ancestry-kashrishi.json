@@ -90,8 +90,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Kashrishi01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Kashrishi02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Kashrishi01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Kashrishi02.png"
+					}
+				}
 			]
 		}
 	]

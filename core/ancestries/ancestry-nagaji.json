@@ -96,10 +96,34 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Nagaji01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Nagaji02.png",
-				"https://2e.aonprd.com/Images/Ancestries/Nagaji03.png",
-				"https://2e.aonprd.com/Images/Ancestries/Nagaji04.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Nagaji01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Nagaji02.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Nagaji03.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Nagaji04.png"
+					}
+				}
 			]
 		}
 	]

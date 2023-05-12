@@ -84,8 +84,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Fetchling01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Fetchling02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Fetchling01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Fetchling02.png"
+					}
+				}
 			]
 		}
 	]

@@ -98,8 +98,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Sprite01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Sprite02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Sprite01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Sprite02.png"
+					}
+				}
 			]
 		}
 	]

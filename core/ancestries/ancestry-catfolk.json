@@ -127,8 +127,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Catfolk01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Catfolk02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Catfolk01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Catfolk02.png"
+					}
+				}
 			]
 		}
 	]

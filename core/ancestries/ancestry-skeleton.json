@@ -79,8 +79,20 @@
 				}
 			],
 			"images": [
-				"https://2e.aonprd.com/Images/Ancestries/Skeleton01.png",
-				"https://2e.aonprd.com/Images/Ancestries/Skeleton02.png"
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Skeleton01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"path": "https://2e.aonprd.com/Images/Ancestries/Skeleton02.png"
+					}
+				}
 			]
 		}
 	]
