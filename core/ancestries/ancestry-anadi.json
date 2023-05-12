@@ -38,6 +38,7 @@
 			],
 			"features": [
 				{
+					"type": "ability",
 					"name": "Fangs",
 					"unarmedAttack": true,
 					"entries": [
