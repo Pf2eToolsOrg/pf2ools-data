@@ -26,24 +26,36 @@
 				"intelligence"
 			],
 			"languages": [
-				"Common",
-				"Iruxi|b1",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Amurrun|b1}, {@language Aquan}, {@language Boggard|b1}, {@language Draconic}, {@language Elven}, {@language Jotun}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"iruxi|b1"
+			],
+			"additionalLanguages": [
+				"amurrun",
+				"aquan",
+				"boggard",
+				"draconic",
+				"elven",
+				"jotun",
+				"sylvan"
 			],
 			"traits": [
 				"lizardfolk",
 				"humanoid"
 			],
+			"tags": [
+				"unarmedAttack"
+			],
 			"features": [
 				{
 					"name": "Claws",
-					"unarmedAttack": true,
+					"type": "ability",
 					"entries": [
 						"Your sharp claws offer an alternative to the fists other humanoids bring to a fight. You have a claw unarmed attack that deals {@damage 1d4} slashing damage and has the {@trait agile} and {@trait finesse} traits."
 					]
 				},
 				{
 					"name": "Aquatic Adaptation",
+					"type": "ability",
 					"entries": [
 						"Your reptilian biology allows you to hold your breath for a long time. You gain the {@feat Breath Control} general feat as a bonus feat."
 					]

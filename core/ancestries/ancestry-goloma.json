@@ -17,9 +17,18 @@
 				"free"
 			],
 			"languages": [
-				"Goloma|LOME",
-				"Mwangi",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Abyssal}, {@language Aklo}, {@language Draconic}, {@language Elven}, {@language Halfling}, {@language Necril}, {@language Orcish}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)"
+				"goloma|lome",
+				"mwangi"
+			],
+			"additionalLanguages": [
+				"abyssal",
+				"aklo",
+				"draconic",
+				"elven",
+				"halfling",
+				"necril",
+				"orcish",
+				"sylvan"
 			],
 			"traits": [
 				"goloma",
@@ -28,6 +37,7 @@
 			"features": [
 				{
 					"name": "Eyes in Back",
+					"type": "ability",
 					"entries": [
 						"You have eyes that point in several different directions and instinctively notice movement in the peripheries of your vision. When you use the {@action Seek} basic action, you can look for creatures in two areas instead of one. If precision is necessary, you can select two 30-foot cones or 15-foot bursts within line of sight instead of one."
 					]

@@ -17,9 +17,15 @@
 				"free"
 			],
 			"languages": [
-				"Common",
-				"Shadowtongue",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Aklo}, {@language Draconic}, {@language D'ziriak|b2}, {@language Necril}, {@language Undercommon}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"shadowtongue"
+			],
+			"additionalLanguages": [
+				"aklo",
+				"draconic",
+				"d'ziriak|b2",
+				"necril",
+				"undercommon"
 			],
 			"traits": [
 				"fetchling",
@@ -28,6 +34,7 @@
 			"features": [
 				{
 					"name": "Darkvision",
+					"type": "ability",
 					"entries": [
 						"You can see in darkness and dim light just as well as you can see in bright light."
 					]

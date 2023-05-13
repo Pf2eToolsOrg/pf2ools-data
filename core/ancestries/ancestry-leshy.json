@@ -26,9 +26,16 @@
 				"intelligence"
 			],
 			"languages": [
-				"Common",
-				"Sylvan",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Draconic}, {@language Elven}, {@language Gnomish}, {@language Goblin}, {@language Halfling}, {@language Undercommon}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"sylvan"
+			],
+			"additionalLanguages": [
+				"draconic",
+				"elven",
+				"gnomish",
+				"goblin",
+				"halfling",
+				"undercommon"
 			],
 			"traits": [
 				"leshy",
@@ -37,12 +44,14 @@
 			"features": [
 				{
 					"name": "Low-Light Vision",
+					"type": "ability",
 					"entries": [
 						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]
 				},
 				{
 					"name": "Plant Nourishment",
+					"type": "ability",
 					"entries": [
 						"You gain nourishment in the same way that the plants or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food. If you normally rely on photosynthesis and go without sunlight for 1 week, you begin to starve. You can derive nourishment from specially formulated bottles of sunlight instead of natural sunlight, but these bottles cost 10 times as much as standard rations (or 40 sp)."
 					]

@@ -25,9 +25,16 @@
 				"charisma"
 			],
 			"languages": [
-				"Common",
-				"Dwarven",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Gnomish}, {@language Goblin}, {@language Jotun}, {@language Orcish}, {@language Terran}, {@language Undercommon}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"dwarven"
+			],
+			"additionalLanguages": [
+				"gnomish",
+				"goblin",
+				"jotun",
+				"orcish",
+				"terran",
+				"undercommon"
 			],
 			"traits": [
 				"dwarf",
@@ -36,12 +43,14 @@
 			"features": [
 				{
 					"name": "Darkvision",
+					"type": "ability",
 					"entries": [
 						"You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
 					]
 				},
 				{
 					"name": "Clan Dagger",
+					"type": "ability",
 					"entries": [
 						"You get one {@item clan dagger|CRB} for free, as it was given to you at birth. Selling this clan dagger is a terrible taboo and earns you the disdain of other dwarves."
 					]

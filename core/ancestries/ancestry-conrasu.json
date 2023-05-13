@@ -21,9 +21,16 @@
 				"charisma"
 			],
 			"languages": [
-				"Mwangi",
-				"Rasu|LOME",
-				"Additional languages equal to your Intelligence modifier (if it is positive). Choose from {@language Celestial}, {@language Elven}, {@language Iruxi|b1}, {@language Sylvan}, {@language Terran}, {@language Utopian|b1}, and any other languages to which you have access (such as the languages prevalent to your region)."
+				"mwangi",
+				"rasu|lome"
+			],
+			"additionalLanguages": [
+				"celestial",
+				"elven",
+				"iruxi|b1",
+				"sylvan",
+				"terran",
+				"utopian|b1"
 			],
 			"traits": [
 				"aeon",
@@ -33,6 +40,7 @@
 			"features": [
 				{
 					"name": "Sunlight Healing",
+					"type": "ability",
 					"entries": [
 						"A conrasu can enter a meditative, healing state as a 10-minute activity when exposed to direct sunlight, in which case they recover {@dice 1d8} Hit Points. At 3rd level, and every 2 levels thereafter, this healing increases by {@dice 1d8}. Once a conrasu has recovered Hit Points in this way, they are temporarily immune to further uses of Sunlight Healing for 1 day."
 					]

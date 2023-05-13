@@ -17,9 +17,15 @@
 				"free"
 			],
 			"languages": [
-				"Common",
-				"Sylvan",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Aklo}, {@language Draconic}, {@language Elven}, {@language Gnomish}, {@language Jotun}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"sylvan"
+			],
+			"additionalLanguages": [
+				"aklo",
+				"draconic",
+				"elven",
+				"gnomish",
+				"jotun"
 			],
 			"traits": [
 				"ghoran",
@@ -29,12 +35,14 @@
 			"features": [
 				{
 					"name": "Low-Light Vision",
+					"type": "ability",
 					"entries": [
 						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]
 				},
 				{
 					"name": "Photosynthesis",
+					"type": "ability",
 					"entries": [
 						"You gain nourishment from photosynthesis. You typically don't need to pay for food. If you go without sunlight for 1 week, you begin to starve. You can derive nourishment from specially formulated bottles of alchemical sunlight instead of natural sunlight, but these bottles cost 10 times as much as standard rations (40 sp)."
 					]

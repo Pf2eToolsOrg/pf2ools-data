@@ -21,8 +21,15 @@
 				"dexterity"
 			],
 			"languages": [
-				"Common",
-				"Additional languages equal to your Intelligence modifier (if positive). Choose from {@language Draconic}, {@language Dwarven}, {@language Elven}, {@language Gnomish}, {@language Goblin}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common"
+			],
+			"additionalLanguages": [
+				"draconic",
+				"dwarven",
+				"elven",
+				"gnomish",
+				"goblin",
+				"sylvan"
 			],
 			"traits": [
 				"construct",
@@ -31,18 +38,21 @@
 			"features": [
 				{
 					"name": "Constructed",
+					"type": "ability",
 					"entries": [
 						"The materials of your body resist ailments that assail the flesh. You gain a +1 circumstance bonus to saving throws against {@trait death} effects, {@trait disease}, and {@trait poison} as well as to saving throws against effects that would give you the {@condition drained}, {@condition paralyzed}, or {@condition sickened} conditions. Your spark of life means that you're a living creature, and you can be healed by positive energy and harmed by negative energy as normal."
 					]
 				},
 				{
 					"name": "Darkvision",
+					"type": "ability",
 					"entries": [
 						"You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
 					]
 				},
 				{
 					"name": "Flammable",
+					"type": "ability",
 					"entries": [
 						"You have weakness to fire damage equal to one-third your level (minimum 1)."
 					]

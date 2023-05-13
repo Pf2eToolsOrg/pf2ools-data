@@ -21,9 +21,15 @@
 				"constitution"
 			],
 			"languages": [
-				"Common",
-				"Shoony",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Dwarven}, {@language Gnomish}, {@language Goblin}, {@language Halfling}, {@language Terran}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"shoony"
+			],
+			"additionalLanguages": [
+				"dwarven",
+				"gnomish",
+				"goblin",
+				"halfling",
+				"terran"
 			],
 			"traits": [
 				"humanoid",
@@ -32,12 +38,14 @@
 			"features": [
 				{
 					"name": "Low-Light Vision",
+					"type": "ability",
 					"entries": [
 						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]
 				},
 				{
 					"name": "Blunt Snout",
+					"type": "ability",
 					"entries": [
 						"Your small, blunt snout and labyrinthine sinus system make you resistant to phenomena that assail the nose. When you roll a saving throw against inhaled threats (such as inhaled poisons) and olfactory effects (such as xulgath stench), you get the outcome one degree of success better than the result of your roll."
 					]

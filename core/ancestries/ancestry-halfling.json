@@ -25,9 +25,14 @@
 				"strength"
 			],
 			"languages": [
-				"Common",
-				"Halfling",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Dwarven}, {@language Elven}, {@language Gnomish}, {@language Goblin}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"halfling"
+			],
+			"additionalLanguages": [
+				"dwarven",
+				"elven",
+				"gnomish",
+				"goblin"
 			],
 			"traits": [
 				"halfling",
@@ -36,6 +41,7 @@
 			"features": [
 				{
 					"name": "Keen Eyes",
+					"type": "ability",
 					"entries": [
 						"Your eyes are sharp, allowing you to make out small details about {@condition concealed|CRB} or even {@condition invisible|CRB} creatures that others might miss. You gain a +2 circumstance bonus when using the {@action Seek} action to find {@condition hidden|CRB} or {@condition undetected|CRB} creatures within 30 feet of you. When you target an opponent that is {@condition concealed|CRB} from you or hidden from you, reduce the DC of the flat check to 3 for a {@condition concealed|CRB} target or 9 for a {@condition hidden|CRB} one."
 					]

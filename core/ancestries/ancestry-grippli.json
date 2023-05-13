@@ -21,9 +21,17 @@
 				"strength"
 			],
 			"languages": [
-				"Common",
-				"Grippli|b2",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Abyssal}, {@language Aquan}, {@language Boggard|b1}, {@language Draconic}, {@language Elven}, {@language Iruxi|b1}, {@language Sylvan}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"grippli|b2"
+			],
+			"additionalLanguages": [
+				"abyssal",
+				"aquan",
+				"boggard|b1",
+				"draconic",
+				"elven",
+				"iruxi|b1",
+				"sylvan"
 			],
 			"traits": [
 				"grippli",
@@ -32,6 +40,7 @@
 			"features": [
 				{
 					"name": "Low-Light Vision",
+					"type": "ability",
 					"entries": [
 						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]

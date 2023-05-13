@@ -21,9 +21,16 @@
 				"strength"
 			],
 			"languages": [
-				"Common",
-				"Sylvan",
-				"Additional languages equal to your Intelligence modifier (if positive). Choose from {@language Abyssal}, {@language Celestial}, {@language Draconic}, {@language Dwarven}, {@language Undercommon}, {@language Utopian|b1}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"sylvan"
+			],
+			"additionalLanguages": [
+				"abyssal",
+				"celestial",
+				"draconic",
+				"dwarven",
+				"undercommon",
+				"utopian"
 			],
 			"traits": [
 				"fey",
@@ -32,12 +39,14 @@
 			"features": [
 				{
 					"name": "Low-Light Vision",
+					"type": "ability",
 					"entries": [
 						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]
 				},
 				{
 					"name": "Magical Strikes",
+					"type": "ability",
 					"entries": [
 						"Your inherent magic pervades your entire being. All your {@action Strike||Strikes} are magical, whether with unarmed attacks or weapons."
 					]

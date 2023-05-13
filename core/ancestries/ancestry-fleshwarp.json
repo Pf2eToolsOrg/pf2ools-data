@@ -18,8 +18,15 @@
 				"free"
 			],
 			"languages": [
-				"Common",
-				"Additional languages equal to your Intelligence modifier (if positive). Choose from {@language Aklo}, {@language Draconic}, {@language Dwarven}, {@language Elven}, {@language Goblin}, {@language Undercommon}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common"
+			],
+			"additionalLanguages": [
+				"aklo",
+				"draconic",
+				"dwarven",
+				"elven",
+				"goblin",
+				"undercommon"
 			],
 			"traits": [
 				"aberration",
@@ -28,12 +35,14 @@
 			"features": [
 				{
 					"name": "Low-Light Vision",
+					"type": "ability",
 					"entries": [
 						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]
 				},
 				{
 					"name": "Unusual Anatomy",
+					"type": "ability",
 					"entries": [
 						"Your unorthodox body resists physical afflictions meant for other creatures. You gain a +1 circumstance bonus to saves against diseases and poisons."
 					]
@@ -41,9 +50,6 @@
 			],
 			"entries": [
 				"Fleshwarps are people whose forms were created or radically transformed by magic, alchemy, or unnatural energies. Their unorthodox appearance can make it difficult for them to find a place for themselves in the world."
-			],
-			"heritageInfo": [
-				"The circumstances of each fleshwarp's creation are different, but they can be grouped into heritages based on the nature of their origin. Choose one of the following fleshwarp heritages at 1st level. Although any fleshwarp may have any appearance you desire, each heritage provides typical characteristics."
 			],
 			"heritage": [
 				{

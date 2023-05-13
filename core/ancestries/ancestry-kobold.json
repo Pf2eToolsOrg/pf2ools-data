@@ -26,9 +26,16 @@
 				"constitution"
 			],
 			"languages": [
-				"Common",
-				"Draconic",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Aklo}, {@language Dwarven}, {@language Gnomish}, {@language Infernal}, {@language Terran}, {@language Undercommon}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"common",
+				"draconic"
+			],
+			"additionalLanguages": [
+				"aklo",
+				"dwarven",
+				"gnomish",
+				"infernal",
+				"terran",
+				"undercommon"
 			],
 			"traits": [
 				"humanoid",
@@ -37,12 +44,14 @@
 			"features": [
 				{
 					"name": "Darkvision",
+					"type": "ability",
 					"entries": [
 						"You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
 					]
 				},
 				{
 					"name": "Draconic Exemplar",
+					"type": "ability",
 					"entries": [
 						"You draw minor powers from your draconic exemplar. Choose a type of chromatic or metallic dragon to be your exemplar. This determines your scale color and appearance, and dragons sometimes look more favorably upon those kobolds who resemble them, at the GM's discretion. Your exemplar may also determine details of other abilities you have, using the Draconic Exemplars table."
 					]

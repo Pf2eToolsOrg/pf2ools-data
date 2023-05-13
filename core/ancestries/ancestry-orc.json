@@ -23,8 +23,13 @@
 			],
 			"languages": [
 				"Common",
-				"Orcish",
-				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Goblin}, {@language Jotun}, {@language Terran}, {@language Undercommon}, and any other languages to which you have access (such as the languages prevalent in your region)."
+				"Orcish"
+			],
+			"additionalLanguages": [
+				"Goblin",
+				"Jotun",
+				"Terran",
+				"Undercommon"
 			],
 			"traits": [
 				"orc",
@@ -32,6 +37,7 @@
 			],
 			"features": [
 				{
+					"type": "ability",
 					"name": "Darkvision",
 					"entries": [
 						"You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
@@ -56,7 +62,7 @@
 						],
 						"action": [
 							{
-								"type": "modifies",
+								"type": "modifier",
 								"action": "hustle",
 								"entry": "You can {@action Hustle} twice as long while exploring before you have to stop."
 							}
@@ -87,7 +93,9 @@
 						"You are part of an orc community that participates in ritual scarification or tattooing. The marks on your skin show your exceptional hardiness and vitality. You gain 12 Hit Points from your ancestry instead of 10. You also gain the {@feat Diehard} feat."
 					],
 					"modif": {
-						"hp": 12,
+						"hp": {
+							"ancestry": 12
+						},
 						"feats": [
 							"Diehard"
 						]
@@ -107,9 +115,9 @@
 								"type": "circumstance",
 								"modifier": 2,
 								"skills": [
-									"Athletics"
+									"athletics"
 								],
-								"action": [
+								"actions": [
 									"Climb",
 									"Swim"
 								]
@@ -136,9 +144,11 @@
 						"You descend from a line of terrifying battlefield commanders. You become trained in {@skill Intimidation}, and you gain the {@feat Intimidating Glare} skill feat."
 					],
 					"modif": {
-						"skills": [
-							"Intimidation"
-						],
+						"skills": {
+							"trained": [
+								"intimidation"
+							]
+						},
 						"feats": [
 							"Intimidating Glare"
 						]
@@ -155,8 +165,7 @@
 					"modif": {
 						"resistance": [
 							{
-								"type": "half-level",
-								"modifier": 1,
+								"modifier": "half-level",
 								"traits": [
 									"negative"
 								]
@@ -188,9 +197,11 @@
 						"environmental": [
 							"cold"
 						],
-						"skills": [
-							"Survival"
-						]
+						"skills": {
+							"trained": [
+								"survival"
+							]
+						}
 					}
 				}
 			],
