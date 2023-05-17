@@ -150,6 +150,7 @@
 			"images": [
 				{
 					"type": "image",
+					"title": "Anadi in Humanoid Form",
 					"href": {
 						"type": "external",
 						"path": "https://2e.aonprd.com/Images/Ancestries/Anadi01.png"
@@ -157,6 +158,7 @@
 				},
 				{
 					"type": "image",
+					"title": "Anadi in Spider Form",
 					"href": {
 						"type": "external",
 						"path": "https://2e.aonprd.com/Images/Ancestries/Anadi02.png"
