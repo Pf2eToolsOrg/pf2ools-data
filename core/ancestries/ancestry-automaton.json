@@ -18,20 +18,20 @@
 				"free"
 			],
 			"languages": [
-				"Common",
-				"Utopian|b1"
+				"common",
+				"utopian|b1"
 			],
 			"additionalLanguages": [
-				"Abyssal",
-				"Aquan",
-				"Auran",
-				"Celestial",
-				"Dwarven",
-				"Elven",
-				"Ignan",
-				"Infernal",
-				"Terran",
-				"Jistkan"
+				"abyssal",
+				"aquan",
+				"auran",
+				"celestial",
+				"dwarven",
+				"elven",
+				"ignan",
+				"infernal",
+				"terran",
+				"jistkan"
 			],
 			"languageNote": "At the GM's discretion, if you still have memories from your time in {@place Jistka}, you might speak {@language Jistkan|b2} instead of {@language Common}.",
 			"traits": [
