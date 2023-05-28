@@ -43,6 +43,7 @@
 				{
 					"name": "Fangs",
 					"type": "ability",
+					"summary": "You gain {@trait finesse} fangs dealing {@damage 1d6} piercing damage.",
 					"entries": [
 						"You were born with a natural means for hunting and self-defense. You gain a fangs unarmed attack that deals {@damage 1d6} piercing damage. Your fangs are in the {@group brawling} group and have the {@trait finesse} and {@trait unarmed} traits."
 					]
